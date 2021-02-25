@@ -1,0 +1,91 @@
+body{
+    background-color: lightcyan;
+}
+
+#clockbox{
+    left:38%;
+    top:10%;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border: 6px solid darkblue;
+    border-radius: 50%;
+   
+}
+
+
+ #content{
+    top: 40%;
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    border: 1px solid ;
+    padding: 2px 40px;
+    text-align: center;
+    
+}
+
+
+
+
+body .btns{
+    width:  300px;
+    height: 50px;
+    top:65%; 
+    left: 38%;  
+    position: absolute;
+    display: inline;
+}
+
+.stop{
+    width: 22px;
+    height: 22px;
+    background-color: skyblue;
+    border-radius: 5px;
+    
+    left: 75%;
+    position: absolute;
+    display: inline;
+    cursor: pointer;    
+}
+
+.start{
+    left: 22%;
+    position: absolute;
+    display: inline-block;
+    border-style: solid;   
+    border-width: 13px 0px 13px 13px;
+    border-color: transparent transparent transparent skyblue;
+    cursor: pointer;
+}
+
+.flag{
+    left: 22%;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    display: none;
+   
+    background-color: skyblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pause{
+    left:48%;
+    position: absolute;
+    display: inline;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.pauseicon{
+    height: 22px;
+    width: 6px;
+    border-radius: 2px;
+    background-color: #202020;
+    display: inline-block;
+   
+    position: absolute;
+}
